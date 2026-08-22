@@ -1,27 +1,159 @@
-# Awesome-Attack-Path-Analysis
+# 🚀 Top Attack Path Analysis Platforms
 
-Markdown
+> A curated list of **Attack Path Analysis (APA), Attack Graph Analysis, Exposure Management, Threat Exposure Management, Security Graph, and Risk-Based Prioritization** platforms and open-source projects.
 
-
-
+Attack Path Analysis helps security teams understand how vulnerabilities, misconfigurations, excessive privileges, exposed identities, network connectivity, and other security conditions can combine into a viable route from an initial foothold to a critical asset. Modern platforms increasingly combine **attack graphs, identity relationships, vulnerability data, cloud permissions, business context, and threat intelligence** to prioritize the paths that matter most.
 
 ---
 
+## 🏢 SaaS / Hosted Platforms
+
+| Platform | Description | Primary Focus |
+|---|---|---|
+| [XM Cyber](https://xmcyber.com/) | Continuous exposure management platform centered around attack graph analysis, validated attack paths, exposure prioritization, and business-impact analysis. | Attack Path / Exposure Management |
+| [Tenable One](https://www.tenable.com/products/tenable-one) | Exposure management platform combining vulnerability, identity, cloud, attack surface, and attack-path insights. | Exposure Management |
+| [Tenable ExposureAI](https://www.tenable.com/) | AI-assisted exposure analysis and prioritization capabilities within Tenable's exposure management ecosystem. | AI / Exposure Prioritization |
+| [Palo Alto Networks Cortex XSIAM](https://www.paloaltonetworks.com/cortex/cortex-xsiam) | AI-driven security operations platform correlating endpoint, network, cloud, identity, and security data to identify attack activity and risk. | XDR / Security Operations |
+| [Microsoft Security Exposure Management](https://www.microsoft.com/en-us/security/business/security-exposure-management) | Microsoft's exposure management capability for discovering, correlating, and prioritizing security risks across enterprise environments. | Exposure Management |
+| [Balbix](https://www.balbix.com/) | AI-powered cyber risk management and security posture platform providing asset intelligence, attack surface analysis, and risk prioritization. | Cyber Risk / Attack Paths |
+| [Brinqa](https://www.brinqa.com/) | Cyber risk orchestration and exposure management platform using a security knowledge graph to connect vulnerabilities, assets, controls, and business context. | Security Graph / Risk |
+| [FireMon](https://www.firemon.com/) | Network security policy management and risk platform with path analysis and policy optimization capabilities. | Network Security / Path Analysis |
+| [Pathlock](https://pathlock.com/) | Application security and access governance platform analyzing access risks, permissions, and toxic combinations. | Identity / Access Risk |
+| [Cymulate](https://cymulate.com/) | Breach and attack simulation platform that continuously validates security controls and attack scenarios. | BAS / Attack Simulation |
+| [AlgoSec](https://www.algosec.com/) | Network security management platform providing application connectivity mapping, risk analysis, and security policy optimization. | Network Path Analysis |
+| [Microsoft Defender Exposure Management](https://www.microsoft.com/en-us/security/business/threat-protection/microsoft-defender-external-attack-surface-management) | Microsoft security exposure capabilities connecting assets, vulnerabilities, identities, attack surfaces, and security recommendations. | Exposure Management |
+| [Rapid7 Exposure Command](https://www.rapid7.com/) | Exposure management capabilities designed to correlate vulnerabilities, assets, identities, and attack risk. | Exposure Management |
+| [Qualys TotalCloud](https://www.qualys.com/) | Cloud security and exposure management capabilities for identifying relationships and exploitable cloud risks. | Cloud Exposure |
+| [CrowdStrike Falcon Exposure Management](https://www.crowdstrike.com/) | Exposure management capabilities combining endpoint, identity, cloud, vulnerability, and threat data. | Exposure Management |
+| [Wiz](https://www.wiz.io/) | Cloud security platform that maps cloud resources, vulnerabilities, identities, permissions, and attack paths. | Cloud Attack Paths |
+| [Orca Security](https://orca.security/) | Cloud security platform identifying attack paths across cloud assets, vulnerabilities, identities, and permissions. | Cloud Attack Paths |
+| [Palo Alto Networks Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud) | Cloud-native application protection platform with cloud identity, vulnerability, configuration, and attack-path analysis. | Cloud Security |
+| [Ermetic / Tenable Cloud Security](https://www.tenable.com/products/tenable-cloud-security) | Cloud security and identity risk analysis focused on permissions, exposures, and attack paths. | Cloud IAM / Attack Paths |
+| [Sonrai Security](https://sonraisecurity.com/) | Cloud identity and entitlement management platform that analyzes relationships between identities, permissions, data, and cloud resources. | Cloud Identity |
+| [Permiso Security](https://permiso.io/) | Cloud identity security platform mapping identities, privileges, activity, and attack paths across cloud environments. | Cloud Identity / Attack Paths |
+| [SentinelOne Singularity Exposure Management](https://www.sentinelone.com/) | Security exposure capabilities connecting endpoint, identity, cloud, and vulnerability context. | Exposure Management |
+| [Balbix Cyber Risk Platform](https://www.balbix.com/) | Cyber-risk platform that models enterprise assets, vulnerabilities, controls, and potential attack scenarios. | Cyber Risk |
+| [ThreatConnect](https://threatconnect.com/) | Threat intelligence and security operations platform that can correlate adversary, asset, and risk relationships. | Threat Intelligence / Risk |
+| [SafeBreach](https://www.safebreach.com/) | Breach and attack simulation platform that validates attack paths and security controls against simulated attack techniques. | BAS / Attack Validation |
+| [Picus Security](https://www.picussecurity.com/) | Security control validation and breach simulation platform for evaluating attack techniques and defensive coverage. | BAS / Attack Simulation |
+| [Pentera](https://pentera.io/) | Automated security validation platform that emulates real-world attacks to discover exploitable attack chains. | Automated Security Validation |
+| [Randori](https://www.randori.com/) | Attack surface and adversary perspective platform focused on external attack paths and attacker reconnaissance. | Attack Surface / Adversary Intelligence |
+| [CyCognito](https://www.cycognito.com/) | External attack surface management platform discovering unknown assets and externally reachable attack exposure. | External Attack Surface |
+| [Mandiant Advantage](https://cloud.google.com/security/mandiant) | Threat intelligence and security validation ecosystem providing adversary, vulnerability, and attack-context analysis. | Threat Intelligence |
+| [Recorded Future](https://www.recordedfuture.com/) | Intelligence platform correlating vulnerabilities, threat actors, infrastructure, and external exposure. | Threat Intelligence / Exposure |
+
+---
+
+## 🧑‍💻 Open-Source
+
+> The open-source ecosystem is smaller than the commercial exposure-management market, but several projects provide powerful building blocks for **attack graphs, privilege-path analysis, cloud relationship mapping, vulnerability reasoning, and security graph construction**.
+
+### ⭐ Major Open-Source Attack Path / Attack Graph Projects
+
+| Project | Description | Primary Focus |
+|---|---|---|
+| [BloodHound Community Edition](https://github.com/SpecterOps/BloodHound) | Graph-based security analysis platform that reveals hidden relationships and attack paths across identity environments. | Identity / AD Attack Paths |
+| [SharpHound](https://github.com/SpecterOps/SharpHound) | BloodHound data collector for Active Directory environments. | AD Relationship Discovery |
+| [AzureHound](https://github.com/SpecterOps/BloodHound) | BloodHound ecosystem support for collecting Azure identity and relationship data. | Azure Identity |
+| [OpenGraph](https://github.com/SpecterOps/BloodHound) | Graph data model used by the modern BloodHound platform for representing security relationships. | Security Graph |
+| [MulVAL](https://github.com/risksense/mulval) | Logic-based multi-host, multi-stage vulnerability analysis system that generates attack graphs from network and vulnerability information. | Attack Graphs |
+| [Cartography](https://github.com/lyft/cartography) | Open-source asset inventory tool that imports infrastructure and identity relationships into Neo4j for graph-based analysis. | Security Graph |
+| [CloudMapper](https://github.com/duo-labs/cloudmapper) | AWS visualization and security analysis tool for mapping cloud infrastructure and relationships. | AWS Attack Surface |
+| [PMapper](https://github.com/nccgroup/PMapper) | AWS IAM privilege escalation analysis tool that models IAM relationships and identifies effective privilege paths. | AWS IAM Attack Paths |
+| [CloudFox](https://github.com/BishopFox/cloudfox) | AWS situational-awareness toolkit for enumerating cloud resources, permissions, and potential privilege paths. | AWS Security Analysis |
+| [Steampipe](https://github.com/turbot/steampipe) | Open-source framework for querying cloud and infrastructure data as relational tables, useful for constructing security graphs and exposure analysis. | Cloud Security Data |
+| [Neo4j](https://github.com/neo4j/neo4j) | Graph database frequently used as the underlying graph engine for security relationship and attack-path analysis. | Graph Database |
+| [Graphistry](https://github.com/graphistry/pygraphistry) | GPU-accelerated graph visualization and analytics toolkit useful for exploring large security graphs. | Graph Analytics |
+| [NetworkX](https://github.com/networkx/networkx) | Python graph-analysis library that can be used to model and calculate attack paths, shortest paths, centrality, and graph cuts. | Graph Algorithms |
+| [igraph](https://github.com/igraph/igraph) | High-performance graph analysis library useful for large-scale attack graph computation. | Graph Analytics |
+| [OpenCTI](https://github.com/OpenCTI-Platform/opencti) | Open-source cyber threat intelligence platform representing entities and relationships in a graph-oriented knowledge model. | Threat Graph |
+| [MISP](https://github.com/MISP/MISP) | Open-source threat intelligence platform for sharing and correlating indicators, threat information, and relationships. | Threat Intelligence Graph |
+| [MITRE Caldera](https://github.com/mitre/caldera) | Automated adversary emulation platform useful for validating and exploring attack chains. | Attack Simulation |
+| [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | Library of focused adversary techniques for testing security controls and validating attack scenarios. | Attack Technique Validation |
+| [Infection Monkey](https://github.com/guardicore/monkey) | Open-source breach-and-attack simulation platform capable of automatically exploring network attack paths. | Attack Path Simulation |
+| [Prelude Operator](https://github.com/preludeorg) | Open-source adversary emulation framework for executing attack techniques and validating defensive controls. | Adversary Emulation |
+| [Attack Graph Analysis](https://github.com/mmohamedkhaled/attack-graph-analysis) | Python security-analysis toolkit implementing graph algorithms for attack-path ranking, vulnerability analysis, and minimum-cut analysis. | Attack Graph Algorithms |
+| [Cyber Threat Scenario Analyzer](https://github.com/ncr-no/cts-analyzer) | Research implementation combining evidence paths, attack graphs, and kill-chain analysis using MulVAL. | Threat Scenario Analysis |
+| [OWASP Threat Dragon](https://github.com/OWASP/threat-dragon) | Open-source threat modeling tool useful for modeling system relationships and attack scenarios. | Threat Modeling |
+| [OWASP pytm](https://github.com/OWASP/pytm) | Pythonic threat modeling framework for defining systems, data flows, threats, and mitigations programmatically. | Threat Modeling |
+| [OWASP Threat Modeling Tool](https://github.com/OWASP/threat-dragon) | Visual threat modeling environment for mapping application architectures and security threats. | Threat Modeling |
+| [Nmap](https://github.com/nmap/nmap) | Network discovery and security auditing tool that can supply network topology and reachability information for attack-path modeling. | Network Discovery |
+| [Nuclei](https://github.com/projectdiscovery/nuclei) | Template-driven vulnerability and exposure scanner useful for enriching attack graphs with real findings. | Vulnerability Discovery |
+| [OpenVAS / Greenbone Community Edition](https://github.com/greenbone/openvas-scanner) | Open-source vulnerability scanning engine that can provide vulnerability data for attack-graph analysis. | Vulnerability Intelligence |
+| [Trivy](https://github.com/aquasecurity/trivy) | Open-source vulnerability and misconfiguration scanner for containers, cloud, Kubernetes, filesystems, and repositories. | Vulnerability Discovery |
+| [Prowler](https://github.com/prowler-cloud/prowler) | Open-source cloud security assessment tool producing findings that can be incorporated into cloud attack-path models. | Cloud Security |
+| [ScoutSuite](https://github.com/nccgroup/ScoutSuite) | Multi-cloud security auditing tool that maps cloud configurations and security risks. | Cloud Security |
+| [CloudSploit](https://github.com/aquasecurity/cloudsploit) | Cloud security configuration scanner useful for identifying cloud exposures that contribute to attack paths. | Cloud Configuration |
+
+BloodHound is particularly relevant because it explicitly uses graph theory to uncover hidden relationships and attack paths across identity systems, while MulVAL is designed specifically for multi-host, multi-stage vulnerability analysis and attack-graph generation. :contentReference[oaicite:0]{index=0}
+
+---
+
+## 🔥 Open-Source Alternatives by Use Case
+
+### 🥇 Best Identity Attack Path Analysis — BloodHound
+
+**BloodHound Community Edition** is arguably the strongest open-source option for identity-centric attack-path analysis.
+
+It models relationships between users, groups, computers, permissions, sessions, cloud identities, and other entities to identify paths that can lead to privileged or sensitive assets.
+
+**Best for:** Active Directory, Entra/Azure identity, privilege escalation, identity attack paths.
+
+**Commercial alternatives:** XM Cyber, Tenable, Microsoft Security Exposure Management, Brinqa.
+
+---
+
+### 🥈 Best Traditional Attack-Graph Engine — MulVAL
+
+**MulVAL** is one of the most directly relevant open-source projects for formal attack-graph analysis. It performs multi-host, multi-stage vulnerability analysis and can generate attack graphs from vulnerability and network information. :contentReference[oaicite:1]{index=1}
+
+**Best for:** Research, vulnerability reasoning, enterprise network attack graphs, academic security analysis.
+
+**Commercial alternatives:** XM Cyber, Tenable Exposure Management, Brinqa.
+
+---
+
+### 🥉 Best Cloud Relationship Mapping — Cartography
+
+**Cartography** builds a graph representation of infrastructure and relationships and is particularly useful as a foundation for custom cloud security graph and attack-path systems.
+
+**Best for:** AWS/cloud asset relationships, graph-based security analytics, custom exposure platforms.
+
+---
+
+### ⭐ Best AWS IAM Analysis — PMapper
+
+**PMapper** focuses specifically on AWS IAM relationships and effective permissions.
+
+**Best for:** IAM privilege escalation, AWS identity analysis, cloud attack paths.
+
+---
+
+### ⭐ Best AWS Visualization — CloudMapper
+
+**CloudMapper** provides visualization and security analysis of AWS environments.
+
+**Best for:** AWS topology, network relationships, security architecture analysis.
+
+---
+
+### ⭐ Best Attack-Path Simulation — Infection Monkey
+
+**Infection Monkey** can simulate propagation through environments and is useful for discovering possible lateral movement and attack paths.
+
+**Best for:** Breach simulation, lateral movement, network segmentation validation.
+
+---
 
 ### ⭐ Best Cloud Security Data — Prowler / ScoutSuite
 
-
 Cloud security scanners such as **Prowler** and **ScoutSuite** can provide the configuration, identity, and exposure findings required to build custom cloud attack-path analysis systems.
-
 
 **Best for:** AWS, Azure, GCP security posture and exposure discovery.
 
-
 ---
 
-
 ## 🧩 Open-Source Attack Path Building Blocks
-
 
 | Layer | Open-Source Projects |
 |---|---|
@@ -40,12 +172,9 @@ Cloud security scanners such as **Prowler** and **ScoutSuite** can provide the c
 | **Telemetry** | OpenTelemetry |
 | **SIEM / Analytics** | OpenSearch, Wazuh |
 
-
 ---
 
-
 ## 🏗️ Typical Open-Source Attack Path Analysis Stack
-
 
 ```text
                          ┌──────────────────────────────┐
@@ -119,296 +248,13 @@ Cloud security scanners such as **Prowler** and **ScoutSuite** can provide the c
                                     ▼
                      ┌──────────────────────────────────┐
                      │            REMEDIATION             │
-🔬 Key Attack Path Analysis Concepts
-Concept	Description
-Attack Graph	Graph representing possible sequences of actions an attacker can take.
-Attack Path	A specific sequence of relationships or conditions leading from an entry point to a target.
-Initial Access	The starting point from which an attacker enters an environment.
-Lateral Movement	Movement from one compromised system or identity to another.
-Privilege Escalation	Obtaining higher privileges through vulnerabilities, permissions, or identity relationships.
-Privilege Path	A graph path through permissions that can result in elevated access.
-Choke Point	A control or exposure whose remediation can eliminate multiple attack paths.
-Blast Radius	The set of systems, identities, or data potentially affected after compromise.
-Crown Jewel	A business-critical asset that an attacker ultimately wants to compromise.
-Exploitability	Likelihood that a vulnerability or exposure can actually be leveraged.
-Reachability	Whether an attacker can technically reach a resource through network or identity relationships.
-Exposure	A condition that increases the probability or impact of compromise.
-Security Graph	Graph representation connecting assets, identities, vulnerabilities, permissions, and controls.
-Attack Surface	The collection of externally and internally exposed systems and resources.
-Toxic Combination	Multiple individually acceptable permissions or conditions that create a dangerous combined risk.
-Minimum Cut	Smallest set of graph nodes/edges whose removal breaks an attack path.
-Path Centrality	Measurement of entities appearing frequently across important attack paths.
-Blast-Radius Analysis	Analysis of what an attacker could access after compromising a particular entity.
-Exposure Prioritization	Ranking exposures according to actual attack-path and business impact.
-Continuous Exposure Management	Continuous discovery, validation, prioritization, and remediation of exploitable exposures.
-🧪 Major Attack Path Analysis Use Cases
-Use Case	Objective
-Active Directory Attack Paths	Identify routes from ordinary users to privileged identities.
-Cloud IAM Attack Paths	Identify excessive permissions and privilege escalation routes.
-Vulnerability Attack Paths	Determine which vulnerabilities can actually contribute to compromise.
-Network Attack Paths	Analyze reachable systems and segmentation weaknesses.
-External-to-Internal Paths	Determine how Internet-facing exposures can lead to internal assets.
-Identity Attack Paths	Connect users, groups, service accounts, applications, and privileges.
-Ransomware Paths	Identify paths leading toward critical systems and data.
-Crown-Jewel Protection	Work backward from critical assets to identify all viable compromise routes.
-Cloud-to-On-Prem Paths	Analyze hybrid attack chains crossing cloud and enterprise environments.
-Third-Party Exposure	Analyze how suppliers, integrations, and external identities can create paths.
-Segmentation Validation	Determine whether network segmentation actually blocks attack paths.
-Remediation Prioritization	Identify fixes that eliminate the greatest number of dangerous paths.
-Breach Simulation	Validate whether theoretical attack paths are practically exploitable.
-Threat-Informed Defense	Prioritize attack paths associated with relevant adversary techniques.
-📊 Attack Path Risk Scoring
-
-A practical attack-path scoring model can combine multiple dimensions:
-
-Attack Path Risk
-        │
-        ├── Exploitability
-        │
-        ├── Asset Criticality
-        │
-        ├── Privilege Level
-        │
-        ├── Network Reachability
-        │
-        ├── Identity Exposure
-        │
-        ├── Vulnerability Severity
-        │
-        ├── Threat Intelligence
-        │
-        ├── Path Length
-        │
-        ├── Business Impact
-        │
-        └── Control Weakness
-                │
-                ▼
-        ┌───────────────────┐
-        │ Composite Risk    │
-        │ Score              │
-        └─────────┬─────────┘
-                  │
-                  ▼
-          Remediation Priority
-🏆 Quick Comparison
-Platform / Project	Hosted	Open Source	Attack Graph	Identity	Cloud	Vulnerability	Attack Simulation
-XM Cyber	✅	❌	✅	✅	✅	✅	⚪
-Tenable Exposure Management	✅	❌	✅	✅	✅	✅	⚪
-Microsoft Security Exposure Management	✅	❌	✅	✅	✅	✅	⚪
-Brinqa	✅	❌	✅	✅	✅	✅	⚪
-Balbix	✅	❌	✅	✅	✅	✅	⚪
-FireMon	✅	❌	⚪	⚪	⚪	⚪	⚪
-Pathlock	✅	❌	⚪	✅	✅	⚪	⚪
-AlgoSec	✅	❌	⚪	⚪	⚪	⚪	⚪
-Cymulate	✅	❌	⚪	⚪	✅	⚪	✅
-BloodHound CE	❌	✅	✅	✅	✅	⚪	⚪
-MulVAL	❌	✅	✅	⚪	⚪	✅	⚪
-Cartography	❌	✅	⚪	✅	✅	⚪	⚪
-CloudMapper	❌	✅	⚪	✅	✅	⚪	⚪
-PMapper	❌	✅	✅	✅	✅	⚪	⚪
-CloudFox	❌	✅	⚪	✅	✅	⚪	⚪
-Infection Monkey	❌	✅	⚪	⚪	⚪	⚪	✅
-MITRE Caldera	❌	✅	⚪	⚪	⚪	⚪	✅
-Atomic Red Team	❌	✅	⚪	⚪	⚪	⚪	✅
-Prowler	❌	✅	⚪	✅	✅	⚪	⚪
-ScoutSuite	❌	✅	⚪	✅	✅	⚪	⚪
-Attack Graph Analysis	❌	✅	✅	⚪	⚪	✅	⚪
-
-Important: Not every open-source project above is a complete commercial-grade Attack Path Analysis platform. Some are attack-graph engines, identity graph tools, cloud graph builders, vulnerability scanners, simulation platforms, or graph-analysis libraries that can serve as components of an open-source APA stack.
-
-🥇 Best Open-Source Alternatives
-Commercial Platform	Strong Open-Source Alternatives
-XM Cyber	BloodHound, MulVAL, Cartography, Neo4j, NetworkX
-Tenable ExposureAI	MulVAL, BloodHound, Prowler, Nuclei, OpenVAS
-Microsoft Security Exposure Management	BloodHound, Cartography, Prowler, ScoutSuite, MulVAL
-Balbix	Cartography, Neo4j, NetworkX, MulVAL
-Brinqa	Cartography + Neo4j + MulVAL + OpenCTI
-FireMon	Nmap + NetworkX + Graphistry + Neo4j
-Pathlock	BloodHound + PMapper + Neo4j
-Cymulate	MITRE Caldera + Atomic Red Team + Infection Monkey
-AlgoSec	Nmap + NetworkX + Graphviz + Neo4j
-Cloud Attack Path Platforms	PMapper, CloudMapper, CloudFox, Cartography, Prowler
-Identity Attack Path Platforms	BloodHound, SharpHound, AzureHound
-Vulnerability Attack Graph Platforms	MulVAL, OpenVAS, Nuclei + custom graph engine
-🗺️ Open-Source Attack Path Analysis Landscape
-                         ATTACK PATH ANALYSIS
-                                  │
-          ┌───────────────────────┼────────────────────────┐
-          │                       │                        │
-          ▼                       ▼                        ▼
-    IDENTITY GRAPHS         VULNERABILITY             CLOUD GRAPHS
-          │                   ATTACK GRAPHS                 │
-          │                       │                          │
-     BloodHound               MulVAL                    Cartography
-     SharpHound               OpenVAS                   CloudMapper
-     AzureHound               Nuclei                    PMapper
-                              Trivy                     CloudFox
-                                  │                      Prowler
-          │                       │                          │
-          └───────────────────────┼──────────────────────────┘
-                                  ▼
-                         SECURITY KNOWLEDGE
-                               GRAPH
-                                  │
-                    ┌─────────────┼─────────────┐
-                    │             │             │
-                    ▼             ▼             ▼
-                  Neo4j       NetworkX       Graphistry
-                    │             │             │
-                    └─────────────┼─────────────┘
-                                  ▼
-                           ATTACK GRAPH ENGINE
-                                  │
-                    ┌─────────────┼─────────────┐
-                    │             │             │
-                    ▼             ▼             ▼
-                 MulVAL      Custom Graph    BloodHound
-                              Algorithms
-                                  │
-                                  ▼
-                           ATTACK PATHS
-                                  │
-             ┌────────────────────┼─────────────────────┐
-             │                    │                     │
-             ▼                    ▼                     ▼
-        Initial Access       Lateral Movement      Privilege Escalation
-             │                    │                     │
-             └────────────────────┼─────────────────────┘
-                                  ▼
-                           CROWN JEWEL ASSET
-                                  │
-                                  ▼
-                          RISK PRIORITIZATION
-                                  │
-                    ┌─────────────┼─────────────┐
-                    │             │             │
-                    ▼             ▼             ▼
-                Exploitability  Impact       Reachability
-                    │             │             │
-                    └─────────────┼─────────────┘
-                                  ▼
-                           REMEDIATION
-                                  │
-             ┌────────────────────┼─────────────────────┐
-             │                    │                     │
-             ▼                    ▼                     ▼
-            Patch             Remove Access        Segment Network
-             │                    │                     │
-             └────────────────────┼─────────────────────┘
-                                  ▼
-                         PATH ELIMINATED
-🔗 Related Categories
-
-Attack Surface Management
-
-Continuous Exposure Management
-
-Vulnerability Management
-
-Identity Threat Detection and Response
-
-Cloud Security
-
-Cyber Threat Intelligence
-
-Breach and Attack Simulation
-
-Threat Modeling
-
-Graph Database
-
-Network Security
-
-Privilege Escalation
-
-Attack Graph
-
-📚 References
-
-XM Cyber
- — Attack graph and continuous exposure management platform.
-
-Tenable Attack Path Analysis
- — Overview of attack-path analysis and its role in exposure management.
-
-BloodHound Community Edition
- — Graph-based identity and attack-path analysis.
-
-MulVAL
- — Multi-host, multi-stage vulnerability analysis and attack-graph generation.
-
-Cartography
- — Infrastructure and relationship graphing platform.
-
-CloudMapper
- — AWS infrastructure visualization and security analysis.
-
-PMapper
- — AWS IAM privilege-path analysis.
-
-CloudFox
- — AWS cloud situational-awareness and privilege analysis.
-
-Prowler
- — Open-source cloud security assessment platform.
-
-ScoutSuite
- — Multi-cloud security auditing tool.
-
-MITRE Caldera
- — Automated adversary emulation platform.
-
-Atomic Red Team
- — Open-source library of security testing techniques.
-
-Infection Monkey
- — Open-source breach and attack simulation platform.
-
-OpenCTI
- — Open-source cyber threat intelligence knowledge graph.
-
-MISP
- — Open-source threat intelligence sharing and correlation platform.
-
-Neo4j
- — Graph database suitable for security relationship graphs.
-
-NetworkX
- — Python graph-analysis library.
-
-Graphistry
- — Graph visualization and analytics platform.
-
-Attack Graph Analysis
- — Open-source graph-based security analysis toolkit.
-
-Cyber Threat Scenario Analyzer
- — Research implementation combining evidence paths and attack graphs.
-
-OWASP Threat Dragon
- — Open-source threat modeling tool.
-
-🤝 Contributing
-
-Contributions are welcome!
-
-If you know of an Attack Path Analysis platform, attack graph engine, security graph, cloud attack-path analyzer, identity attack-path tool, exposure management platform, or open-source attack simulation project that should be included, please open a pull request.
-
-Criteria
-
-Primarily related to attack paths, attack graphs, exposure analysis, security graphs, or attack-chain analysis
-
-Open-source projects should have publicly accessible source code
-
-Commercial platforms should provide meaningful exposure, attack-path, security graph, or attack-chain capabilities
-
-Components such as graph databases, vulnerability scanners, and attack simulators are welcome when they can meaningfully contribute to an APA stack
-
-Prefer actively maintained projects
-
-Avoid purely offensive tools unless they provide meaningful attack-path discovery or validation functionality
-
-Include the official project URL whenever possible
-
-⭐ If this list is useful, consider starring the repository and contributing additional open-source Attack Path Analysis projects.
+                     │                                  │
+                     │ Patch                              │
+                     │ Remove Permission                  │
+                     │ Disable Account                    │
+                     │ Segment Network                    │
+                     │ Fix Misconfiguration               │
+                     │ Rotate Credential                  │
+                     │ Remove Exposure                    │
+                     └──────────────────────────────────┘
+ ```
