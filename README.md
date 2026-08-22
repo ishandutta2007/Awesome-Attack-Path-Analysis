@@ -10,6 +10,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Attack-Path-Analysis/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?style=flat-square" alt="Maintenance" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ---
@@ -30,6 +31,7 @@
 - [🔥 Top Open-Source Picks by Category](#-top-open-source-picks-by-category)
 - [🧩 Attack Path Analysis Architecture Stack](#-attack-path-analysis-architecture-stack)
 - [📚 Technical Articles & Academic Foundations](#-technical-articles--academic-foundations)
+- [⭐ Star History](#-star-history)
 - [🤝 Contributing & Community](#-contributing--community)
 
 ---
@@ -198,6 +200,12 @@
 - 📄 **[An Overview of Attack Graph Generation and Analysis](https://link.springer.com/chapter/10.1007/978-3-319-60888-4_1)** — Comprehensive survey of topological and state-enumeration attack graphs.
 - 📄 **[Six Degrees of Domain Admin: BloodHound Attack Path Modeling](https://specterops.io/resources/research/)** — *SpecterOps* (Graph theory applied to Active Directory security).
 - 📄 **[Gartner CTEM Framework (Continuous Threat Exposure Management)](https://www.gartner.com/en/articles/how-to-manage-cybersecurity-threats-not-just-vulnerabilities)** — Modern enterprise exposure reduction guidelines.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Attack-Path-Analysis&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Attack-Path-Analysis&type=date&legend=top-left)
 
 ---
 
